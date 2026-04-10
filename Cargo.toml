@@ -1,0 +1,8 @@
+[package]
+name = "cuda-attention"
+version = "0.1.0"
+edition = "2021"
+description = "Resource-limited attention allocation — agents can't attend to everything, so they must choose wisely"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
